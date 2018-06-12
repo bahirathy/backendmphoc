@@ -1,4 +1,3 @@
-
 'use strict';
 
 const user = require('../models/register');  
