@@ -15,7 +15,7 @@ const register = require('./models/register');
 module.exports = router => {
 
 
-    router.post('/registerUser', cors(), (req, res) => { 
+    routeost('/registerUser', cors(), (req, res) => { 
 
         const firstname = req.body.firstname;
         console.log(firstname);
